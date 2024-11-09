@@ -1,0 +1,92 @@
+/* src/app/page.module.css */
+
+/* Main container style */
+.mainContainer {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #0070f3;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Portfolio content layout */
+.portfolioContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Left container for profile */
+.leftContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Right container for projects */
+.rightContainer {
+  flex: 2;
+}
+
+/* Profile image style */
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/* Projects section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Add more specific styles for responsiveness or additional sections if needed */
